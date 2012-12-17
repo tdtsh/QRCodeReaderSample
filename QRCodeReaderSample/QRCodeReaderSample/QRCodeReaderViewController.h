@@ -13,8 +13,8 @@
 ///Users/tadatoshi_hanazaki/workspace/QRCodeReaderSample/QRCodeReaderSample/QRCodeReaderSample/QRCodeReaderViewController.h:10:9: 'ZXingWidgetController.h' file not found
 
 /*
-/Users/tadatoshi_hanazaki/workspace/QRCodeReaderSample/ZXimg/iphone/ZXingWidget/Classes
-/Users/tadatoshi_hanazaki/workspace/QRCodeReaderSample/ZXimg/cpp/core/src
+/Users/tadatoshi_hanazaki/workspace/QRCodeReaderSample/ZXing/iphone/ZXingWidget/Classes
+/Users/tadatoshi_hanazaki/workspace/QRCodeReaderSample/ZXing/cpp/core/src
 ../../iphone/ZXingWidget/Classes
 ../../cpp/core/src
 
