@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4277CBB167F39BF00272346 /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4277CB8167F398800272346 /* libZXingWidget.a */; };
 		E4FFDC6B167F073A00C0641C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FFDC6A167F073A00C0641C /* UIKit.framework */; };
 		E4FFDC6D167F073A00C0641C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FFDC6C167F073A00C0641C /* Foundation.framework */; };
 		E4FFDC6F167F073A00C0641C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FFDC6E167F073A00C0641C /* CoreGraphics.framework */; };
@@ -17,10 +18,42 @@
 		E4FFDC7F167F073A00C0641C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FFDC7E167F073A00C0641C /* Default@2x.png */; };
 		E4FFDC81167F073A00C0641C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FFDC80167F073A00C0641C /* Default-568h@2x.png */; };
 		E4FFDC84167F073A00C0641C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4FFDC82167F073A00C0641C /* MainStoryboard.storyboard */; };
-		E4FFDC87167F073A00C0641C /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FFDC86167F073A00C0641C /* QRCodeReaderViewController.m */; };
+		E4FFDC9D167F09AB00C0641C /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FFDC9C167F09AB00C0641C /* libiconv.dylib */; };
+		E4FFDC9F167F09B400C0641C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FFDC9E167F09B400C0641C /* CoreMedia.framework */; };
+		E4FFDCA1167F09BC00C0641C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FFDCA0167F09BC00C0641C /* CoreVideo.framework */; };
+		E4FFDCA3167F09C300C0641C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FFDCA2167F09C300C0641C /* AVFoundation.framework */; };
+		E4FFDCA5167F09CB00C0641C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FFDCA4167F09CB00C0641C /* AudioToolbox.framework */; };
+		E4FFDCA7167F09D600C0641C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FFDCA6167F09D600C0641C /* AddressBook.framework */; };
+		E4FFDCA9167F09DE00C0641C /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FFDCA8167F09DE00C0641C /* AddressBookUI.framework */; };
+		E4FFDCAC167F0AF700C0641C /* QRCodeReaderViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4FFDCAB167F0AF700C0641C /* QRCodeReaderViewController.mm */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E4277CB7167F398800272346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4277CAF167F398800272346 /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
+		E4277CB9167F398800272346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4277CAF167F398800272346 /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D60398D13DF7CAD006F4B51;
+			remoteInfo = ZXingTests;
+		};
+		E4277CBC167F39C900272346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4277CAF167F398800272346 /* ZXingWidget.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		E4277CAF167F398800272346 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = ../../ZXimg/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = "<group>"; };
 		E4FFDC66167F073A00C0641C /* QRCodeReaderSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeReaderSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FFDC6A167F073A00C0641C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E4FFDC6C167F073A00C0641C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,7 +69,14 @@
 		E4FFDC80167F073A00C0641C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E4FFDC83167F073A00C0641C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E4FFDC85167F073A00C0641C /* QRCodeReaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderViewController.h; sourceTree = "<group>"; };
-		E4FFDC86167F073A00C0641C /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderViewController.m; sourceTree = "<group>"; };
+		E4FFDC9C167F09AB00C0641C /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		E4FFDC9E167F09B400C0641C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E4FFDCA0167F09BC00C0641C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E4FFDCA2167F09C300C0641C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E4FFDCA4167F09CB00C0641C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E4FFDCA6167F09D600C0641C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		E4FFDCA8167F09DE00C0641C /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		E4FFDCAB167F0AF700C0641C /* QRCodeReaderViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QRCodeReaderViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,18 +84,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4277CBB167F39BF00272346 /* libZXingWidget.a in Frameworks */,
+				E4FFDC6F167F073A00C0641C /* CoreGraphics.framework in Frameworks */,
+				E4FFDCA9167F09DE00C0641C /* AddressBookUI.framework in Frameworks */,
+				E4FFDCA7167F09D600C0641C /* AddressBook.framework in Frameworks */,
+				E4FFDCA5167F09CB00C0641C /* AudioToolbox.framework in Frameworks */,
+				E4FFDCA3167F09C300C0641C /* AVFoundation.framework in Frameworks */,
+				E4FFDCA1167F09BC00C0641C /* CoreVideo.framework in Frameworks */,
+				E4FFDC9F167F09B400C0641C /* CoreMedia.framework in Frameworks */,
+				E4FFDC9D167F09AB00C0641C /* libiconv.dylib in Frameworks */,
 				E4FFDC6B167F073A00C0641C /* UIKit.framework in Frameworks */,
 				E4FFDC6D167F073A00C0641C /* Foundation.framework in Frameworks */,
-				E4FFDC6F167F073A00C0641C /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4277CB0167F398800272346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4277CB8167F398800272346 /* libZXingWidget.a */,
+				E4277CBA167F398800272346 /* ZXingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E4FFDC5B167F073A00C0641C = {
 			isa = PBXGroup;
 			children = (
+				E4277CAF167F398800272346 /* ZXingWidget.xcodeproj */,
+				E4FFDCA8167F09DE00C0641C /* AddressBookUI.framework */,
+				E4FFDCA6167F09D600C0641C /* AddressBook.framework */,
+				E4FFDCA4167F09CB00C0641C /* AudioToolbox.framework */,
+				E4FFDCA2167F09C300C0641C /* AVFoundation.framework */,
+				E4FFDCA0167F09BC00C0641C /* CoreVideo.framework */,
+				E4FFDC9E167F09B400C0641C /* CoreMedia.framework */,
+				E4FFDC9C167F09AB00C0641C /* libiconv.dylib */,
 				E4FFDC70167F073A00C0641C /* QRCodeReaderSample */,
 				E4FFDC69167F073A00C0641C /* Frameworks */,
 				E4FFDC67167F073A00C0641C /* Products */,
@@ -83,11 +148,11 @@
 		E4FFDC70167F073A00C0641C /* QRCodeReaderSample */ = {
 			isa = PBXGroup;
 			children = (
+				E4FFDCAB167F0AF700C0641C /* QRCodeReaderViewController.mm */,
 				E4FFDC79167F073A00C0641C /* QRCodeReaderAppDelegate.h */,
 				E4FFDC7A167F073A00C0641C /* QRCodeReaderAppDelegate.m */,
 				E4FFDC82167F073A00C0641C /* MainStoryboard.storyboard */,
 				E4FFDC85167F073A00C0641C /* QRCodeReaderViewController.h */,
-				E4FFDC86167F073A00C0641C /* QRCodeReaderViewController.m */,
 				E4FFDC71167F073A00C0641C /* Supporting Files */,
 			);
 			path = QRCodeReaderSample;
@@ -121,6 +186,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E4277CBD167F39C900272346 /* PBXTargetDependency */,
 			);
 			name = QRCodeReaderSample;
 			productName = QRCodeReaderSample;
@@ -147,12 +213,35 @@
 			mainGroup = E4FFDC5B167F073A00C0641C;
 			productRefGroup = E4FFDC67167F073A00C0641C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4277CB0167F398800272346 /* Products */;
+					ProjectRef = E4277CAF167F398800272346 /* ZXingWidget.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E4FFDC65167F073A00C0641C /* QRCodeReaderSample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4277CB8167F398800272346 /* libZXingWidget.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libZXingWidget.a;
+			remoteRef = E4277CB7167F398800272346 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E4277CBA167F398800272346 /* ZXingTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZXingTests.octest;
+			remoteRef = E4277CB9167F398800272346 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E4FFDC64167F073A00C0641C /* Resources */ = {
@@ -176,11 +265,19 @@
 			files = (
 				E4FFDC77167F073A00C0641C /* main.m in Sources */,
 				E4FFDC7B167F073A00C0641C /* QRCodeReaderAppDelegate.m in Sources */,
-				E4FFDC87167F073A00C0641C /* QRCodeReaderViewController.m in Sources */,
+				E4FFDCAC167F0AF700C0641C /* QRCodeReaderViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4277CBD167F39C900272346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZXingWidget;
+			targetProxy = E4277CBC167F39C900272346 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E4FFDC73167F073A00C0641C /* InfoPlist.strings */ = {
@@ -224,6 +321,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -245,6 +343,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -257,6 +356,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QRCodeReaderSample/QRCodeReaderSample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"/Users/tadatoshi_hanazaki/workspace/ZXimg/iphone/ZXingWidget/Classes/**",
+					/Users/tadatoshi_hanazaki/workspace/ZXimg/cpp/core/src,
+				);
 				INFOPLIST_FILE = "QRCodeReaderSample/QRCodeReaderSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -268,6 +371,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QRCodeReaderSample/QRCodeReaderSample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"/Users/tadatoshi_hanazaki/workspace/ZXimg/iphone/ZXingWidget/Classes/**",
+					/Users/tadatoshi_hanazaki/workspace/ZXimg/cpp/core/src,
+				);
 				INFOPLIST_FILE = "QRCodeReaderSample/QRCodeReaderSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -293,6 +400,7 @@
 				E4FFDC8C167F073A00C0641C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
